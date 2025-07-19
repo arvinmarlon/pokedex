@@ -1,22 +1,13 @@
 #Pokédex Full-Stack Anwendung
 
-[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0+-green.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
-[![MySQL](https://img.shields.io/badge/MySQL-8.0+-blue.svg)](https://www.mysql.com/)
-
 Ein modernes Full-Stack Pokédex-System entwickelt mit **Spring Boot** (Backend) und **React** (Frontend). Verwalte deine Pokémon-Sammlung mit einer schönen, responsive Benutzeroberfläche!
-
-![Pokédex Screenshot](https://via.placeholder.com/800x400/1a237e/ffffff?text=Pok%C3%A9dex+Master)
-
-## 🎯 Features
 
 ### ⚡ Frontend (React)
 - **Moderne UI**: Vollflächiges 3-Spalten-Layout
 - **Pokémon-Liste**: Scrollbare Liste mit Suchfunktion
 - **Live-Suche**: Echtzeit-Filter nach Name, Typ oder Fähigkeit
 - **Edit-Modus**: Pokémon direkt bearbeiten und aktualisieren
-- **Responsive Design**: Funktioniert auf allen Bildschirmgrößen
+- **Responsive Design**: Funktioniert auf allen Bildschirmgrössen
 - **Smooth Animations**: Hover-Effekte und Transitions
 
 ### 🔧 Backend (Spring Boot)
@@ -34,7 +25,7 @@ Ein modernes Full-Stack Pokédex-System entwickelt mit **Spring Boot** (Backend)
 ## 🛠️ Technologie-Stack
 
 ### Backend
-- **Java 17+**
+- **Java 21**
 - **Spring Boot 3.x**
 - **Spring Data JPA**
 - **MySQL 8.0+**
@@ -56,7 +47,7 @@ Ein modernes Full-Stack Pokédex-System entwickelt mit **Spring Boot** (Backend)
 
 ### 1. Repository klonen
 ```bash
-git clone https://github.com/DEIN-USERNAME/pokedex-master.git
+git clone https://github.com/arvinmarlon/pokedex-master.git
 cd pokedex-master
 ```
 
@@ -71,7 +62,7 @@ FLUSH PRIVILEGES;
 ### 3. Backend starten (Spring Boot)
 ```bash
 cd backend/pokedex
-./mvnw spring-boot:run
+./mvn spring-boot:run
 ```
 Das Backend läuft nun auf `http://localhost:8080`
 
@@ -123,7 +114,7 @@ pokedex-master/
 
 ### Pokémon hinzufügen
 1. Fülle das Formular rechts aus (Name und Typ sind Pflichtfelder)
-2. Klicke auf "⚡ Pokémon hinzufügen"
+2. Klicke auf "Pokémon hinzufügen"
 
 ### Pokémon suchen
 1. Verwende die Suchleiste links oben
@@ -132,8 +123,8 @@ pokedex-master/
 ### Pokémon bearbeiten
 1. Klicke auf ein Pokémon in der Liste (links)
 2. Das Pokémon wird in der Mitte angezeigt
-3. Klicke auf "✏️ Bearbeiten"
-4. Ändere die Daten und klicke "💾 Speichern"
+3. Klicke auf "Bearbeiten"
+4. Ändere die Daten und klicke "Speichern"
 
 ### Pokémon löschen
 1. Klicke auf den "🗑️" Button bei einem Pokémon
@@ -161,7 +152,7 @@ pokedex-master/
 }
 ```
 
-## 🏗️ Architektur
+## Architektur
 
 Das Projekt folgt einer **3-Schichten-Architektur**:
 
@@ -234,32 +225,3 @@ cd backend/pokedex
 cd frontend/frontend
 npm run build
 ```
-
-## 🤝 Contributing
-
-1. Fork das Repository
-2. Erstelle einen Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit deine Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push zum Branch (`git push origin feature/AmazingFeature`)
-5. Öffne einen Pull Request
-
-## 📄 Lizenz
-
-Dieses Projekt ist unter der MIT Lizenz veröffentlicht. Siehe `LICENSE` Datei für Details.
-
-## 👤 Autor
-
-**Dein Name**
-- GitHub: [@dein-username](https://github.com/dein-username)
-- Email: deine.email@example.com
-
-## 🙏 Danksagungen
-
-- Spring Boot Team für das fantastische Framework
-- React Team für die moderne UI Library
-- Pokémon Company für die Inspiration
-- Community für Feedback und Beiträge
-
----
-
-⭐ **Gefällt dir das Projekt? Gib ihm einen Stern!** ⭐
